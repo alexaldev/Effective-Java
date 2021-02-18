@@ -1,4 +1,4 @@
-package builders;
+package chapter2.builders;
 
 /**
  * Serious disadvantage is that it is inconsistent across the creation stage.

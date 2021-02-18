@@ -1,4 +1,4 @@
-package static_factory_methods;
+package chapter2.static_factory_methods;
 
 public class Car {
 
