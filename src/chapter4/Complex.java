@@ -10,14 +10,18 @@ public final class Complex {
     private final double re;
     private final double im;
 
-    public Complex(double re, double im) {
+    private Complex(double re, double im) {
         this.re = re;
         this.im = im;
     }
 
-    public Complex(final Complex other) {
+    private Complex(final Complex other) {
         re = other.re;
         im = other.im;
+    }
+
+    public Complex valueOf(final double re, final double im) {
+        return new Complex(re, im);
     }
 
     public Complex plus(final Complex other) {
